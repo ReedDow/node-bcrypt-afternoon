@@ -38,7 +38,7 @@ export default class Container extends Component {
       treasures: {
         ...this.state.treasures,
         all: treasure.data
-      },
+      }
     })
   }).catch(error => alert(error.response.request.response))
 }
